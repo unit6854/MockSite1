@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Precision Power Wash — Industrial Pressure Washing</title>
+  <meta name="description" content="Professional mobile power washing for driveways, fleets, commercial buildings, and industrial equipment. We come to you — Dallas, TX.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/precision-power-wash/assets/css/theme.css">
+</head>
+<body class="home page wp-singular">
+
+<!-- ═══════════════════════ HEADER ═══════════════════════ -->
+<div class="wp-block-group ppw-header">
+  <div class="wp-block-group ppw-header__inner">
+
+    <div class="wp-block-group ppw-header__brand">
+      <figure class="wp-block-image ppw-logo">
+        <a href="/"><img src="/precision-power-wash/assets/images/ppw-logo.webp" alt="Precision Power Wash" width="661" height="174"></a>
+      </figure>
+    </div>
+
+    <nav class="wp-block-navigation ppw-nav" aria-label="Primary navigation">
+      <button class="wp-block-navigation__responsive-container-open" aria-label="Open menu" aria-expanded="false" aria-controls="ppwNavOverlay">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <div class="wp-block-navigation__responsive-container" id="ppwNavOverlay" role="dialog" aria-label="Menu">
+        <div class="wp-block-navigation__responsive-close">
+          <button class="wp-block-navigation__responsive-container-close" aria-label="Close menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        <ul class="wp-block-navigation__container">
+          <li class="wp-block-navigation-item"><a href="#services" class="wp-block-navigation-item__content">Services</a></li>
+          <li class="wp-block-navigation-item"><a href="#gallery" class="wp-block-navigation-item__content">Our Work</a></li>
+          <li class="wp-block-navigation-item"><a href="#testimonials" class="wp-block-navigation-item__content">Testimonials</a></li>
+          <li class="wp-block-navigation-item"><a href="#about" class="wp-block-navigation-item__content">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="wp-block-buttons">
+      <div class="wp-block-button ppw-btn-quote">
+        <a class="wp-block-button__link wp-element-button" href="#quote">Get a Quote</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════ MAIN ═══════════════════════ -->
+<main>
+
+<!-- ─────────────────── HERO ─────────────────── -->
+<div class="wp-block-group ppw-hero" id="hero">
+
+  <div id="ppw-webgl-container" aria-hidden="true">
+    <canvas id="ppw-webgl-canvas"></canvas>
+    <div class="ppw-hero__scan-lines" aria-hidden="true"></div>
+  </div>
+
+  <div class="wp-block-group ppw-hero__content">
+
+    <h1 class="ppw-hero__headline" style="color:#ffffff;font-weight:800;line-height:1.0;letter-spacing:-0.04em;margin-top:1rem;margin-bottom:0">
+      Industrial<br><span class="ppw-text-cyan">Pressure.</span><br>Proven Results.
+    </h1>
+
+    <p class="ppw-hero__sub" style="color:#a0b0c8;font-size:1.2rem;line-height:1.6;margin-top:1rem;margin-bottom:0">
+      Mobile power washing for driveways, fleets, commercial buildings,<br class="ppw-br-desktop"> and industrial equipment. We come to you.
+    </p>
+
+    <div class="wp-block-buttons ppw-hero__ctas" style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:1rem">
+      <div class="wp-block-button ppw-btn-primary">
+        <a class="wp-block-button__link wp-element-button" href="#quote" style="background:#00b4d8;color:#050d1a;font-weight:700;font-size:0.875rem;letter-spacing:0.04em;text-transform:uppercase;border-radius:0.375rem;padding:1rem 2.25rem;display:inline-block;text-decoration:none">Get a Free Quote</a>
+      </div>
+      <div class="wp-block-button ppw-btn-outline is-style-outline">
+        <a class="wp-block-button__link wp-element-button" href="#services" style="color:#e8f0fe;border:1px solid rgba(255,255,255,0.2);font-weight:600;font-size:0.875rem;letter-spacing:0.04em;text-transform:uppercase;border-radius:0.375rem;padding:1rem 2.25rem;display:inline-block;text-decoration:none">View Services</a>
+      </div>
+    </div>
+
+    <div class="ppw-hero__scroll-hint" aria-hidden="true">
+      <div class="ppw-scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+
+    <div class="ppw-hero__cursor-hint" id="ppwCursorHint" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="#00b4d8" stroke-width="1.5" stroke-dasharray="4 2"/></svg>
+      <span>Move cursor to pressure-wash the surface</span>
+    </div>
+
+  </div>
+</div>
+
+<!-- ─────────────────── TRUST BAR ─────────────────── -->
+<div class="wp-block-group ppw-trust-bar" style="background-color:#0a1628">
+  <div class="wp-block-group">
+    <div class="wp-block-group ppw-trust-item">
+      <svg class="ppw-trust-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">Licensed &amp; Insured</p>
+    </div>
+    <div class="ppw-trust-divider"></div>
+    <div class="wp-block-group ppw-trust-item">
+      <svg class="ppw-trust-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">500+ 5-Star Reviews</p>
+    </div>
+    <div class="ppw-trust-divider"></div>
+    <div class="wp-block-group ppw-trust-item">
+      <svg class="ppw-trust-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">Same-Week Scheduling</p>
+    </div>
+    <div class="ppw-trust-divider"></div>
+    <div class="wp-block-group ppw-trust-item">
+      <svg class="ppw-trust-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">Mobile — We Come to You</p>
+    </div>
+    <div class="ppw-trust-divider"></div>
+    <div class="wp-block-group ppw-trust-item">
+      <svg class="ppw-trust-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">Satisfaction Guaranteed</p>
+    </div>
+  </div>
+</div>
+
+<!-- ─────────────────── SERVICES ─────────────────── -->
+<div class="wp-block-group ppw-services" id="services" style="background-color:#050d1a">
+
+  <div class="wp-block-group ppw-section-header" style="margin-bottom:4rem">
+    <p class="ppw-label" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.14em;font-weight:700;text-transform:uppercase;margin-bottom:1rem">What We Do</p>
+    <h2 style="color:#ffffff;font-weight:800;letter-spacing:-0.03em;margin-top:0;margin-bottom:1rem">Every Surface. Every Job.<br>Done Right.</h2>
+    <p style="color:#a0b0c8;font-size:1.1rem;line-height:1.7">From residential driveways to large commercial fleets, our mobile units deploy where you need us — with professional-grade equipment and eco-friendly detergents.</p>
+  </div>
+
+  <div class="wp-block-columns ppw-services__grid">
+    <div class="wp-block-column">
+      <div class="wp-block-group ppw-service-card" style="background-color:#0a1628;border:1px solid rgba(0,180,216,0.12);border-radius:0.75rem;padding:2rem 1.75rem">
+        <div class="ppw-service-icon" data-service="residential"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="9 22 9 12 15 12 15 22" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 style="color:#ffffff;font-size:1.125rem;font-weight:700;margin-top:1.25rem;margin-bottom:0.5rem">Residential Driveways</h3>
+        <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.6">Concrete, pavers, stamped concrete — we remove oil stains, mold, algae, and years of built-up grime without damaging your surfaces.</p>
+        <p class="ppw-service-detail" style="color:#00b4d8;font-size:0.75rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase;margin-top:1.25rem">Residential · Starts at $149</p>
+      </div>
+    </div>
+    <div class="wp-block-column">
+      <div class="wp-block-group ppw-service-card" style="background-color:#0a1628;border:1px solid rgba(0,180,216,0.12);border-radius:0.75rem;padding:2rem 1.75rem">
+        <div class="ppw-service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><rect x="1" y="3" width="22" height="13" rx="2" stroke="#00b4d8" stroke-width="1.5"/><path d="M5 20h14M8 16v4m8-4v4" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+        <h3 style="color:#ffffff;font-size:1.125rem;font-weight:700;margin-top:1.25rem;margin-bottom:0.5rem">Commercial Properties</h3>
+        <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.6">Parking lots, loading docks, storefronts, and exterior facades. We schedule around your business hours to minimize disruption.</p>
+        <p class="ppw-service-detail" style="color:#00b4d8;font-size:0.75rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase;margin-top:1.25rem">Commercial · Custom Quote</p>
+      </div>
+    </div>
+    <div class="wp-block-column">
+      <div class="wp-block-group ppw-service-card" style="background-color:#0a1628;border:1px solid rgba(0,180,216,0.12);border-radius:0.75rem;padding:2rem 1.75rem">
+        <div class="ppw-service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M1 3h15v13H1zM16 8l5 3-5 3V8z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 21h6M8 17v4" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 style="color:#ffffff;font-size:1.125rem;font-weight:700;margin-top:1.25rem;margin-bottom:0.5rem">Fleet &amp; Equipment</h3>
+        <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.6">Trucks, trailers, heavy machinery, and construction equipment. On-site fleet washing keeps your vehicles clean, compliant, and professional.</p>
+        <p class="ppw-service-detail" style="color:#00b4d8;font-size:0.75rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase;margin-top:1.25rem">Fleet · Per-Unit Pricing</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wp-block-columns ppw-services__grid" style="margin-top:1.5rem">
+    <div class="wp-block-column">
+      <div class="wp-block-group ppw-service-card" style="background-color:#0a1628;border:1px solid rgba(0,180,216,0.12);border-radius:0.75rem;padding:2rem 1.75rem">
+        <div class="ppw-service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M3 21l18-18M9 3H3v6l12 12 6-6L9 3z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 style="color:#ffffff;font-size:1.125rem;font-weight:700;margin-top:1.25rem;margin-bottom:0.5rem">Building Exteriors</h3>
+        <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.6">Brick, stucco, vinyl siding, and EIFS. Soft-wash and pressure-wash options to safely remove biological growth without surface damage.</p>
+        <p class="ppw-service-detail" style="color:#00b4d8;font-size:0.75rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase;margin-top:1.25rem">Exterior · Starts at $299</p>
+      </div>
+    </div>
+    <div class="wp-block-column">
+      <div class="wp-block-group ppw-service-card ppw-service-card--featured" style="background-color:#0d1f35;border:1px solid rgba(0,180,216,0.35);border-radius:0.75rem;padding:2rem 1.75rem">
+        <div class="ppw-service-badge">Most Popular</div>
+        <div class="ppw-service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 style="color:#ffffff;font-size:1.125rem;font-weight:700;margin-top:1.25rem;margin-bottom:0.5rem">Roof Soft Wash</h3>
+        <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.6">Low-pressure bio-wash treatment kills moss, lichen, and black algae at the root — extending roof life and restoring curb appeal without voiding warranties.</p>
+        <p class="ppw-service-detail" style="color:#00b4d8;font-size:0.75rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase;margin-top:1.25rem">Roofing · Starts at $399</p>
+      </div>
+    </div>
+    <div class="wp-block-column">
+      <div class="wp-block-group ppw-service-card" style="background-color:#0a1628;border:1px solid rgba(0,180,216,0.12);border-radius:0.75rem;padding:2rem 1.75rem">
+        <div class="ppw-service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 style="color:#ffffff;font-size:1.125rem;font-weight:700;margin-top:1.25rem;margin-bottom:0.5rem">Graffiti Removal</h3>
+        <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.6">Rapid-response graffiti removal on masonry, metal, glass, and painted surfaces. We match the right chemistry to the substrate for clean results.</p>
+        <p class="ppw-service-detail" style="color:#00b4d8;font-size:0.75rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase;margin-top:1.25rem">Emergency · 24hr Response</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─────────────────── STATS ─────────────────── -->
+<div class="wp-block-group ppw-stats" style="background-color:#0a1628">
+  <div class="wp-block-columns">
+
+    <div class="wp-block-column ppw-stat-col">
+      <h2 class="ppw-stat-number" data-count="1200" style="color:#ffffff;font-size:4rem;font-weight:800;line-height:1;letter-spacing:-0.04em">1,200+</h2>
+      <p style="color:#00b4d8;font-size:0.8rem;letter-spacing:0.1em;font-weight:600;text-transform:uppercase;margin-top:0.5rem">Jobs Completed</p>
+      <p style="color:#4a5568;font-size:0.875rem;line-height:1.6;margin-top:0.5rem">Across residential, commercial, and industrial accounts since 2012.</p>
+    </div>
+    <div class="ppw-stat-divider"></div>
+    <div class="wp-block-column ppw-stat-col">
+      <h2 class="ppw-stat-number" data-count="12" style="color:#ffffff;font-size:4rem;font-weight:800;line-height:1;letter-spacing:-0.04em">12</h2>
+      <p style="color:#00b4d8;font-size:0.8rem;letter-spacing:0.1em;font-weight:600;text-transform:uppercase;margin-top:0.5rem">Years in Business</p>
+      <p style="color:#4a5568;font-size:0.875rem;line-height:1.6;margin-top:0.5rem">Locally owned. Professionally operated. Reputation built on results.</p>
+    </div>
+    <div class="ppw-stat-divider"></div>
+    <div class="wp-block-column ppw-stat-col">
+      <h2 class="ppw-stat-number" data-count="500" style="color:#ffffff;font-size:4rem;font-weight:800;line-height:1;letter-spacing:-0.04em">500+</h2>
+      <p style="color:#00b4d8;font-size:0.8rem;letter-spacing:0.1em;font-weight:600;text-transform:uppercase;margin-top:0.5rem">5-Star Reviews</p>
+      <p style="color:#4a5568;font-size:0.875rem;line-height:1.6;margin-top:0.5rem">Average 4.9 stars across Google, Yelp, and HomeAdvisor.</p>
+    </div>
+    <div class="ppw-stat-divider"></div>
+    <div class="wp-block-column ppw-stat-col">
+      <h2 class="ppw-stat-number" style="color:#ffffff;font-size:4rem;font-weight:800;line-height:1;letter-spacing:-0.04em">100%</h2>
+      <p style="color:#00b4d8;font-size:0.8rem;letter-spacing:0.1em;font-weight:600;text-transform:uppercase;margin-top:0.5rem">Satisfaction Rate</p>
+      <p style="color:#4a5568;font-size:0.875rem;line-height:1.6;margin-top:0.5rem">We redo the job free if you're not satisfied. No arguments, no hassle.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ─────────────────── GALLERY ─────────────────── -->
+<div class="wp-block-group ppw-gallery" id="gallery" style="background-color:#050d1a">
+
+  <div class="wp-block-group" style="margin-bottom:3rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end">
+    <div class="wp-block-group">
+      <p class="ppw-label" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.14em;font-weight:700;text-transform:uppercase">Our Work</p>
+      <h2 style="color:#ffffff;font-weight:800;letter-spacing:-0.03em;margin:0">Results Speak Loudest</h2>
+    </div>
+    <div class="wp-block-buttons">
+      <div class="wp-block-button ppw-btn-ghost is-style-outline">
+        <a class="wp-block-button__link wp-element-button" href="#quote" style="color:#00b4d8;border:1px solid rgba(0,180,216,0.3);font-size:0.8rem;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;border-radius:0.375rem;padding:0.65rem 1.5rem;display:inline-block;text-decoration:none">Book Your Clean</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ppw-gallery__grid">
+    <div class="ppw-gallery-item">
+      <div class="ppw-gallery-item__img-wrap">
+        <img class="ppw-gallery-item__img" src="/precision-power-wash/assets/images/gallery/concrete.webp" alt="Concrete driveway pressure washing" loading="lazy" width="900" height="600">
+        <div class="ppw-gallery-overlay"><span>View Project</span></div>
+      </div>
+      <div class="ppw-gallery-item__meta">
+        <span class="ppw-gallery-item__tag">Residential</span>
+        <span class="ppw-gallery-item__title">Concrete Driveway</span>
+      </div>
+    </div>
+    <div class="ppw-gallery-item ppw-gallery-item--tall">
+      <div class="ppw-gallery-item__img-wrap">
+        <img class="ppw-gallery-item__img" src="/precision-power-wash/assets/images/gallery/projects.webp" alt="Power washing projects showcase" loading="lazy" width="900" height="1200">
+        <div class="ppw-gallery-overlay"><span>View Project</span></div>
+      </div>
+      <div class="ppw-gallery-item__meta">
+        <span class="ppw-gallery-item__tag">Projects</span>
+        <span class="ppw-gallery-item__title">Featured Projects</span>
+      </div>
+    </div>
+    <div class="ppw-gallery-item">
+      <div class="ppw-gallery-item__img-wrap">
+        <img class="ppw-gallery-item__img" src="/precision-power-wash/assets/images/gallery/roof.webp" alt="Residential roof soft wash" loading="lazy" width="900" height="600">
+        <div class="ppw-gallery-overlay"><span>View Project</span></div>
+      </div>
+      <div class="ppw-gallery-item__meta">
+        <span class="ppw-gallery-item__tag">Roof Wash</span>
+        <span class="ppw-gallery-item__title">Shingle Algae Removal</span>
+      </div>
+    </div>
+    <div class="ppw-gallery-item">
+      <div class="ppw-gallery-item__img-wrap">
+        <img class="ppw-gallery-item__img" src="/precision-power-wash/assets/images/gallery/fleet.webp" alt="Fleet truck washing" loading="lazy" width="900" height="600">
+        <div class="ppw-gallery-overlay"><span>View Project</span></div>
+      </div>
+      <div class="ppw-gallery-item__meta">
+        <span class="ppw-gallery-item__tag">Fleet</span>
+        <span class="ppw-gallery-item__title">Delivery Fleet Wash</span>
+      </div>
+    </div>
+    <div class="ppw-gallery-item">
+      <div class="ppw-gallery-item__img-wrap">
+        <img class="ppw-gallery-item__img" src="/precision-power-wash/assets/images/gallery/brick-store.webp" alt="Brick storefront exterior pressure washing" loading="lazy" width="900" height="600">
+        <div class="ppw-gallery-overlay"><span>View Project</span></div>
+      </div>
+      <div class="ppw-gallery-item__meta">
+        <span class="ppw-gallery-item__tag">Exterior</span>
+        <span class="ppw-gallery-item__title">Brick Storefront</span>
+      </div>
+    </div>
+    <div class="ppw-gallery-item">
+      <div class="ppw-gallery-item__img-wrap">
+        <img class="ppw-gallery-item__img" src="/precision-power-wash/assets/images/gallery/patio.webp" alt="Paver patio pressure washing" loading="lazy" width="900" height="600">
+        <div class="ppw-gallery-overlay"><span>View Project</span></div>
+      </div>
+      <div class="ppw-gallery-item__meta">
+        <span class="ppw-gallery-item__tag">Residential</span>
+        <span class="ppw-gallery-item__title">Paver Patio Revival</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─────────────────── TESTIMONIALS ─────────────────── -->
+<div class="wp-block-group ppw-testimonials" id="testimonials" style="background-color:#0a1628">
+
+  <div class="wp-block-group" style="margin-bottom:4rem">
+    <p class="ppw-label" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.14em;font-weight:700;text-transform:uppercase;margin-bottom:1rem">Client Testimonials</p>
+    <h2 style="color:#ffffff;font-weight:800;letter-spacing:-0.03em;margin:0 0 1rem">What Our Clients Are Saying</h2>
+    <p style="color:#a0b0c8;font-size:1rem;line-height:1.6">Real words from real customers. We don't pay for reviews — we earn them.</p>
+  </div>
+
+  <div class="ppw-testi-slider" id="ppwTestiSlider">
+    <div class="ppw-testi-track">
+
+      <div class="ppw-testi-slide">
+        <div class="ppw-testi-card">
+          <div class="ppw-testi-stars">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote class="ppw-testi-quote">"Honestly the best power washing service I've ever used. They showed up on time with a massive rig, and my driveway went from black to like-new in about 90 minutes. The crew was professional and didn't leave a mess. Booked them again already for the back patio."</blockquote>
+          <div class="ppw-testi-author">
+            <div class="ppw-testi-avatar" data-initials="MR"></div>
+            <div class="ppw-testi-info"><strong>Marcus R.</strong><span>Homeowner · Westfield, OH</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ppw-testi-slide">
+        <div class="ppw-testi-card">
+          <div class="ppw-testi-stars">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote class="ppw-testi-quote">"We manage a 40-truck fleet and needed a reliable on-site washing partner. Precision Power Wash has been showing up every two weeks without fail for 18 months. Their team works around our dispatch schedule. DOT compliance has never been a problem since we hired them."</blockquote>
+          <div class="ppw-testi-author">
+            <div class="ppw-testi-avatar" data-initials="ST"></div>
+            <div class="ppw-testi-info"><strong>Sandra T.</strong><span>Fleet Manager · Apex Logistics</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ppw-testi-slide">
+        <div class="ppw-testi-card">
+          <div class="ppw-testi-stars">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="#00b4d8"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote class="ppw-testi-quote">"Called them for an emergency graffiti removal on our storefront — they were on-site within 4 hours and had it completely gone before we opened the next morning. Incredible response time. The brick looks better than it did before the vandalism, honestly."</blockquote>
+          <div class="ppw-testi-author">
+            <div class="ppw-testi-avatar" data-initials="JK"></div>
+            <div class="ppw-testi-info"><strong>James K.</strong><span>Owner · Keller's Hardware</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="ppw-testi-controls">
+      <button class="ppw-testi-btn ppw-testi-prev" aria-label="Previous testimonial">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="ppw-testi-dots">
+        <button class="ppw-testi-dot ppw-testi-dot--active" data-index="0" aria-label="Testimonial 1"></button>
+        <button class="ppw-testi-dot" data-index="1" aria-label="Testimonial 2"></button>
+        <button class="ppw-testi-dot" data-index="2" aria-label="Testimonial 3"></button>
+      </div>
+      <button class="ppw-testi-btn ppw-testi-next" aria-label="Next testimonial">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─────────────────── ABOUT ─────────────────── -->
+<div class="wp-block-group ppw-about" id="about" style="background-color:#050d1a">
+  <div class="wp-block-columns" style="align-items:center">
+
+    <div class="wp-block-column" style="flex-basis:50%">
+      <div class="ppw-about__visual">
+        <img class="ppw-about__img" src="/precision-power-wash/assets/images/guy-working.webp" alt="Precision Power Wash technician on the job" loading="lazy" width="800" height="1000">
+        <div class="ppw-about__badge-card">
+          <div class="ppw-about__badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div><strong>Fully Insured</strong><span>$2M General Liability</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wp-block-column" style="flex-basis:50%">
+      <p class="ppw-label" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.14em;font-weight:700;text-transform:uppercase;margin-bottom:1rem">About Precision Power Wash</p>
+      <h2 style="color:#ffffff;font-weight:800;letter-spacing:-0.03em;margin:0 0 1.25rem">Built on Precision.<br>Driven by Results.</h2>
+      <p style="color:#a0b0c8;font-size:1rem;line-height:1.75;margin-bottom:1.5rem">Founded in 2012 by a team of industrial cleaning veterans, Precision Power Wash operates a fleet of mobile pressure washing units equipped with commercial-grade hot and cold water systems, reclaim systems for eco-compliant wastewater management, and surface-specific chemical metering.</p>
+      <div class="wp-block-group ppw-about__points">
+        <div class="wp-block-group ppw-about__point">
+          <div class="ppw-about__check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#00b4d8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <p style="color:#e8f0fe;font-size:0.95rem;line-height:1.55"><strong>Hot &amp; Cold Water Systems</strong> — Our mobile units carry both, letting us choose the right treatment for every surface type and soil level.</p>
+        </div>
+        <div class="wp-block-group ppw-about__point">
+          <div class="ppw-about__check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#00b4d8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <p style="color:#e8f0fe;font-size:0.95rem;line-height:1.55"><strong>Eco-Compliant Wastewater Reclaim</strong> — We capture and properly dispose of runoff on every job site, keeping your property compliant with local environmental regulations.</p>
+        </div>
+        <div class="wp-block-group ppw-about__point">
+          <div class="ppw-about__check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#00b4d8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <p style="color:#e8f0fe;font-size:0.95rem;line-height:1.55"><strong>Surface-Specific Protocols</strong> — Concrete, brick, wood, vinyl, metal, asphalt — each has a dedicated pressure, temperature, and chemical profile.</p>
+        </div>
+      </div>
+      <div class="wp-block-buttons" style="margin-top:2rem">
+        <div class="wp-block-button">
+          <a class="wp-block-button__link wp-element-button" href="#quote" style="background:#00b4d8;color:#050d1a;font-weight:700;font-size:0.8rem;letter-spacing:0.04em;text-transform:uppercase;border-radius:0.375rem;display:inline-block;text-decoration:none">Request a Quote</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ─────────────────── QUOTE CTA ─────────────────── -->
+<div class="wp-block-group ppw-quote" id="quote" style="background-color:#0a1628">
+  <div class="wp-block-columns" style="align-items:center">
+
+    <div class="wp-block-column" style="flex-basis:42%">
+      <p class="ppw-label" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.14em;font-weight:700;text-transform:uppercase;margin-bottom:1.75rem">Get a Free Quote</p>
+      <h2 style="color:#ffffff;font-weight:800;letter-spacing:-0.03em;margin:0 0 1.5rem">Let's Clean It Up.<br>No Obligation.</h2>
+      <p style="color:#a0b0c8;font-size:0.95rem;line-height:1.7;margin-bottom:2rem">Tell us what you need cleaned, and we'll get back to you within 24 hours with a firm, no-surprise price. No pressure. No hidden fees.</p>
+
+      <div class="wp-block-group" style="margin-bottom:2.5rem;display:flex;align-items:center;gap:1rem">
+        <div class="ppw-contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div>
+          <p style="color:#4a5568;font-size:0.7rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase">Office Location</p>
+          <p style="color:#e8f0fe;font-size:0.95rem;font-weight:600;line-height:1.5">2847 Commerce Drive, Suite 104<br>Dallas, TX 75247</p>
+        </div>
+      </div>
+
+      <div class="wp-block-group" style="margin-top:2.5rem;display:flex;flex-direction:column;gap:1.25rem">
+        <div class="wp-block-group" style="display:flex;align-items:center;gap:1rem">
+          <div class="ppw-contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div>
+            <p style="color:#4a5568;font-size:0.7rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase">Call Anytime</p>
+            <p style="color:#ffffff;font-size:1.1rem;font-weight:700"><a href="tel:+15551234567" style="color:inherit;text-decoration:none">(555) 123-4567</a></p>
+          </div>
+        </div>
+        <div class="wp-block-group" style="display:flex;align-items:center;gap:1rem">
+          <div class="ppw-contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div>
+            <p style="color:#4a5568;font-size:0.7rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase">Email Us</p>
+            <p style="color:#00b4d8;font-size:1rem;font-weight:600"><a href="mailto:info@precisionpowerwash.com" style="color:inherit;text-decoration:none">info@precisionpowerwash.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wp-block-column" style="flex-basis:58%">
+      <form class="ppw-quote-form" id="ppwQuoteForm" novalidate>
+        <input type="hidden" name="action" value="ppw_submit_quote">
+        <input type="hidden" name="nonce" id="ppwNonce">
+        <div class="ppw-form-row ppw-form-row--2col">
+          <div class="ppw-form-group">
+            <label for="ppwName">Your Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="ppwName" name="name" placeholder="John Smith" required autocomplete="name">
+          </div>
+          <div class="ppw-form-group">
+            <label for="ppwPhone">Phone Number</label>
+            <input type="tel" id="ppwPhone" name="phone" placeholder="(555) 000-0000" autocomplete="tel">
+          </div>
+        </div>
+        <div class="ppw-form-group">
+          <label for="ppwEmail">Email Address <span aria-hidden="true">*</span></label>
+          <input type="email" id="ppwEmail" name="email" placeholder="you@example.com" required autocomplete="email">
+        </div>
+        <div class="ppw-form-group">
+          <label for="ppwService">Service Needed</label>
+          <select id="ppwService" name="service">
+            <option value="">— Select a Service —</option>
+            <option value="residential-driveway">Residential Driveway</option>
+            <option value="commercial-property">Commercial Property</option>
+            <option value="fleet-equipment">Fleet &amp; Equipment</option>
+            <option value="building-exterior">Building Exterior</option>
+            <option value="roof-softwash">Roof Soft Wash</option>
+            <option value="graffiti-removal">Graffiti Removal</option>
+            <option value="other">Other / Not Sure</option>
+          </select>
+        </div>
+        <div class="ppw-form-group">
+          <label for="ppwMessage">Tell Us About Your Project</label>
+          <textarea id="ppwMessage" name="message" rows="4" placeholder="Describe the surface, approximate square footage, and any specific concerns…"></textarea>
+        </div>
+        <div class="ppw-form-footer">
+          <button type="submit" class="ppw-form-submit">
+            <span class="ppw-form-submit__text">Send My Quote Request</span>
+            <span class="ppw-form-submit__loading" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2.5" stroke-dasharray="31.416" stroke-dashoffset="10"/></svg>
+            </span>
+          </button>
+          <p class="ppw-form-note">We respond within 24 hours · No obligation · No spam</p>
+        </div>
+        <div class="ppw-form-success" id="ppwFormSuccess" aria-live="polite" hidden>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span id="ppwFormSuccessMsg"></span>
+        </div>
+        <div class="ppw-form-error" id="ppwFormError" aria-live="polite" hidden>
+          <span id="ppwFormErrorMsg"></span>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+</main>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<div class="wp-block-group ppw-footer" style="background-color:#050d1a">
+
+  <div class="wp-block-columns ppw-footer__grid">
+
+    <div class="wp-block-column" style="flex-basis:35%">
+      <figure class="wp-block-image ppw-footer-logo">
+        <img src="/precision-power-wash/assets/images/ppw-logo.webp" alt="Precision Power Wash" width="661" height="174">
+      </figure>
+      <p style="color:#a0b0c8;font-size:0.9rem;line-height:1.7">Professional mobile industrial power washing. We bring the equipment to you — driveways, fleets, equipment, and commercial surfaces.</p>
+      <ul class="wp-block-social-links ppw-social has-small-icon-size has-icon-color" style="list-style:none;padding:0;margin-top:1.5rem;display:flex;gap:1rem">
+        <li><a href="https://facebook.com" aria-label="Facebook" style="color:#a0b0c8;display:flex"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a></li>
+        <li><a href="https://instagram.com" aria-label="Instagram" style="color:#a0b0c8;display:flex"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a></li>
+        <li><a href="https://google.com/maps" aria-label="Google Maps" style="color:#a0b0c8;display:flex"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></a></li>
+      </ul>
+    </div>
+
+    <div class="wp-block-column" style="flex-basis:20%">
+      <h4 class="ppw-footer__col-title" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:1.25rem">Services</h4>
+      <ul class="ppw-footer__list" style="padding-left:0;list-style:none;color:#a0b0c8;font-size:0.9rem">
+        <li><a href="#services">Residential Driveways</a></li>
+        <li><a href="#services">Commercial Lots</a></li>
+        <li><a href="#services">Fleet &amp; Equipment</a></li>
+        <li><a href="#services">Building Exteriors</a></li>
+        <li><a href="#services">Roof Soft Wash</a></li>
+        <li><a href="#services">Graffiti Removal</a></li>
+      </ul>
+    </div>
+
+    <div class="wp-block-column" style="flex-basis:20%">
+      <h4 class="ppw-footer__col-title" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:1.25rem">Company</h4>
+      <ul class="ppw-footer__list" style="padding-left:0;list-style:none;color:#a0b0c8;font-size:0.9rem">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Our Work</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#quote">Get a Quote</a></li>
+      </ul>
+    </div>
+
+    <div class="wp-block-column" style="flex-basis:25%">
+      <h4 class="ppw-footer__col-title" style="color:#00b4d8;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:1.25rem">Contact</h4>
+      <div class="wp-block-group ppw-footer__contact" style="display:flex;flex-direction:column;gap:1rem">
+        <p style="color:#a0b0c8;font-size:0.9rem"><strong style="color:#e8f0fe">Phone</strong><br><a href="tel:+15551234567" style="color:#00b4d8">(555) 123-4567</a></p>
+        <p style="color:#a0b0c8;font-size:0.9rem"><strong style="color:#e8f0fe">Email</strong><br><a href="mailto:info@precisionpowerwash.com" style="color:#00b4d8">info@precisionpowerwash.com</a></p>
+        <p style="color:#a0b0c8;font-size:0.9rem"><strong style="color:#e8f0fe">Hours</strong><br>Mon–Sat 7am–7pm<br>Sunday by appointment</p>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="wp-block-separator ppw-footer__divider" style="background-color:#132238;border-color:#132238;margin:0">
+
+  <div class="wp-block-group ppw-footer__bottom">
+    <p style="color:#4a5568;font-size:0.8rem">© 2025 Precision Power Wash. All rights reserved.</p>
+    <p style="color:#4a5568;font-size:0.8rem">Licensed &amp; Insured · Serving the Greater Metro Area</p>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════ SCRIPTS ═══════════════════════ -->
+<script src="/precision-power-wash/assets/js/three.min.js"></script>
+<script src="/precision-power-wash/assets/js/water-effect.js"></script>
+<script src="/precision-power-wash/assets/js/theme.js"></script>
+<script>
+(function() {
+  var openBtn  = document.querySelector('.wp-block-navigation__responsive-container-open');
+  var closeBtn = document.querySelector('.wp-block-navigation__responsive-container-close');
+  var overlay  = document.getElementById('ppwNavOverlay');
+  if (!openBtn || !overlay) return;
+
+  openBtn.addEventListener('click', function() {
+    overlay.classList.add('is-menu-open');
+    openBtn.setAttribute('aria-expanded', 'true');
+  });
+
+  closeBtn && closeBtn.addEventListener('click', function() {
+    overlay.classList.remove('is-menu-open');
+    openBtn.setAttribute('aria-expanded', 'false');
+  });
+
+  overlay.querySelectorAll('.wp-block-navigation-item__content').forEach(function(link) {
+    link.addEventListener('click', function() {
+      overlay.classList.remove('is-menu-open');
+      openBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
