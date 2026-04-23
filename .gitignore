@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# WordPress local dev — never commit local WP install
+wp-config.php
+wp-config-local.php
+
+# Logs
+*.log
+error_log
+
+# Node (if ever used)
+node_modules/
