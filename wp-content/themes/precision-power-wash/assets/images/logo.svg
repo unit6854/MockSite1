@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 36" width="178" height="36" role="img" aria-label="Precision Power Wash">
+
+  <!-- Nozzle body -->
+  <path d="M3 7 L3 29 L14 23 L14 13 Z" fill="#00b4d8"/>
+
+  <!-- Nozzle cap -->
+  <rect x="14" y="14" width="4" height="8" rx="1.5" fill="#48cae4"/>
+
+  <!-- Spray streams — tight 3-line fan -->
+  <line x1="19" y1="15"  x2="32" y2="6"  stroke="#00b4d8" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="19" y1="18"  x2="34" y2="18" stroke="#00b4d8" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="19" y1="21"  x2="32" y2="30" stroke="#00b4d8" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Water droplets at tip -->
+  <circle cx="33.5" cy="5.5"  r="1.8" fill="#00b4d8" opacity="0.9"/>
+  <circle cx="36"   cy="18"   r="1.8" fill="#00b4d8" opacity="0.9"/>
+  <circle cx="33.5" cy="30.5" r="1.8" fill="#00b4d8" opacity="0.9"/>
+
+  <!-- Separator -->
+  <line x1="44" y1="4" x2="44" y2="32" stroke="rgba(0,180,216,0.22)" stroke-width="1"/>
+
+  <!-- PRECISION — white, heavy -->
+  <text x="53" y="16"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif"
+        font-size="13" font-weight="800"
+        letter-spacing="0.07em"
+        fill="#ffffff"
+        dominant-baseline="middle">PRECISION</text>
+
+  <!-- POWER WASH — cyan, medium -->
+  <text x="53" y="28"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif"
+        font-size="8.5" font-weight="600"
+        letter-spacing="0.22em"
+        fill="#00b4d8"
+        dominant-baseline="middle">POWER WASH</text>
+
+</svg>
