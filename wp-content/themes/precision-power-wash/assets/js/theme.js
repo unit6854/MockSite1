@@ -226,6 +226,44 @@
     });
   })();
 
+  // ─── Left Scroll Progress Bar ────────────────────────────────────────────
+  (function initScrollBar() {
+    const bar = document.createElement('div');
+    bar.id = 'ppw-scrollbar';
+    const fill = document.createElement('div');
+    fill.id = 'ppw-scrollbar__fill';
+    bar.appendChild(fill);
+    document.body.appendChild(bar);
+
+    function update() {
+      const docH = document.documentElement.scrollHeight - window.innerHeight;
+      const pct  = docH > 0 ? (window.scrollY / docH) * 100 : 0;
+      fill.style.height = Math.min(pct, 100) + '%';
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  })();
+
+  // ─── Trust Bar Marquee ───────────────────────────────────────────────────
+  (function initTrustMarquee() {
+    const bar = document.querySelector('.ppw-trust-bar > .wp-block-group');
+    if (!bar) return;
+
+    const track = document.createElement('div');
+    track.className = 'ppw-trust-bar__track';
+
+    // Clone items into track twice for seamless loop
+    const clone1 = bar.cloneNode(true);
+    const clone2 = bar.cloneNode(true);
+    clone1.style.cssText = 'display:flex;align-items:center;gap:3rem;flex-shrink:0;padding:0;flex-wrap:nowrap;';
+    clone2.style.cssText = clone1.style.cssText;
+    track.appendChild(clone1);
+    track.appendChild(clone2);
+
+    bar.parentNode.replaceChild(track, bar);
+  })();
+
   // ─── Service card hover tilt ──────────────────────────────────────────────
   (function initCardTilt() {
     if (window.matchMedia('(hover: none)').matches) return;
