@@ -35,7 +35,7 @@
         <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","rowGap":"0.1rem"}} -->
         <div class="wp-block-group">
           <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.7rem","letterSpacing":"0.06em","fontWeight":"600","textTransform":"uppercase"},"color":{"text":"#4a5568"}}} --><p style="color:#4a5568;font-size:0.7rem;letter-spacing:0.06em;font-weight:600;text-transform:uppercase">Office Location</p><!-- /wp:paragraph -->
-          <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem","fontWeight":"600","lineHeight":"1.5"},"color":{"text":"#e8f0fe"}}} --><p style="color:#e8f0fe;font-size:0.95rem;font-weight:600;line-height:1.5">2847 Commerce Drive, Suite 104<br>Dallas, TX 75247</p><!-- /wp:paragraph -->
+          <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem","fontWeight":"600","lineHeight":"1.5"},"color":{"text":"#e8f0fe"}}} --><p style="color:#e8f0fe;font-size:0.95rem;font-weight:600;line-height:1.5">1221 Broadway, Suite 220<br>Nashville, TN 37203</p><!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
       </div>

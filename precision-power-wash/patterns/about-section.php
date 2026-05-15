@@ -48,7 +48,7 @@
       <!-- /wp:heading -->
 
       <!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","lineHeight":"1.75"},"color":{"text":"#a0b0c8"},"spacing":{"margin":{"bottom":"1.5rem"}}}} -->
-      <p style="color:#a0b0c8;font-size:1rem;line-height:1.75;margin-bottom:1.5rem">Founded in 2012 by a team of industrial cleaning veterans, Precision Power Wash operates a fleet of mobile pressure washing units equipped with commercial-grade hot and cold water systems, reclaim systems for eco-compliant wastewater management, and surface-specific chemical metering.</p>
+      <p style="color:#a0b0c8;font-size:1rem;line-height:1.75;margin-bottom:1.5rem">Founded in 2012, Precision Power Wash is Nashville's trusted mobile pressure washing company. We serve homeowners, businesses, and industrial clients across Middle Tennessee — operating a fleet of mobile units equipped with commercial-grade hot and cold water systems, eco-compliant wastewater reclaim, and surface-specific chemical metering.</p>
       <!-- /wp:paragraph -->
 
       <!-- Differentiators -->

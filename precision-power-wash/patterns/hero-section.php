@@ -29,7 +29,7 @@
 
     <!-- Sub-headline -->
     <!-- wp:paragraph {"className":"ppw-hero__sub","style":{"typography":{"fontSize":"1.2rem","lineHeight":"1.6","fontWeight":"400"},"color":{"text":"#a0b0c8"},"spacing":{"margin":{"top":"1.75rem","bottom":"0"}}}} -->
-    <p class="ppw-hero__sub" style="color:#a0b0c8;font-size:1.2rem;line-height:1.6;margin-top:1.75rem;margin-bottom:0">Mobile power washing for driveways, fleets, commercial buildings,<br class="ppw-br-desktop"> and industrial equipment. We come to you.</p>
+    <p class="ppw-hero__sub" style="color:#a0b0c8;font-size:1.2rem;line-height:1.6;margin-top:1.75rem;margin-bottom:0">Nashville's premier mobile pressure washing — driveways, fleets, commercial buildings,<br class="ppw-br-desktop"> and industrial equipment. We come to you across Middle Tennessee.</p>
     <!-- /wp:paragraph -->
 
     <!-- CTA Row -->

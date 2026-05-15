@@ -49,7 +49,7 @@
     <!-- wp:group {"className":"ppw-trust-item","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","columnGap":"0.6rem"}} -->
     <div class="wp-block-group ppw-trust-item">
       <!-- wp:html --><svg class="ppw-trust-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#00b4d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><!-- /wp:html -->
-      <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8rem","fontWeight":"600","letterSpacing":"0.05em"},"color":{"text":"#a0b0c8"}}} --><p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">Mobile — We Come to You</p><!-- /wp:paragraph -->
+      <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8rem","fontWeight":"600","letterSpacing":"0.05em"},"color":{"text":"#a0b0c8"}}} --><p style="color:#a0b0c8;font-size:0.8rem;font-weight:600;letter-spacing:0.05em">Nashville &amp; Middle Tennessee</p><!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
 

@@ -14,6 +14,30 @@ require_once PPW_DIR . '/inc/theme-setup.php';
 require_once PPW_DIR . '/inc/block-patterns.php';
 require_once PPW_DIR . '/inc/acf-fields.php';
 
+// ─── Favicon & Social Meta ──────────────────────────────────────────────────
+
+add_action( 'wp_head', function () {
+    $img = PPW_ASSETS . '/images';
+    ?>
+<link rel="icon" type="image/svg+xml" href="<?php echo esc_url( $img . '/favicon.svg' ); ?>">
+<link rel="shortcut icon"             href="<?php echo esc_url( $img . '/favicon.svg' ); ?>">
+
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Precision Power Wash">
+<meta property="og:title"       content="Precision Power Wash — Professional Pressure Washing">
+<meta property="og:description" content="Residential &amp; commercial pressure washing services. Driveways, roofs, fleets &amp; more. Get a free quote today.">
+<meta property="og:image"       content="<?php echo esc_url( $img . '/og-image.svg' ); ?>">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url"         content="<?php echo esc_url( home_url( '/' ) ); ?>">
+
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="Precision Power Wash — Professional Pressure Washing">
+<meta name="twitter:description" content="Residential &amp; commercial pressure washing services. Get a free quote today.">
+<meta name="twitter:image"       content="<?php echo esc_url( $img . '/og-image.svg' ); ?>">
+    <?php
+}, 2 );
+
 // ─── Assets ─────────────────────────────────────────────────────────────────
 
 add_action( 'wp_enqueue_scripts', function () {

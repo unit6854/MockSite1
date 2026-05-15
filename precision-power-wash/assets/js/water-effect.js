@@ -313,10 +313,10 @@
     // ── Mobile auto-sweep ─────────────────────────────────────────────────
     // Simulates pressure-wash nozzle sweeping rows so the effect plays
     // automatically without conflicting with page scroll.
-    var sweepX      = 0.05;
+    var sweepX      = 0.01;
     var sweepDir    = 1;
-    var sweepY      = 0.82;
-    var sweepRowH   = 0.09;
+    var sweepY      = 0.90;
+    var sweepRowH   = 0.048;
     var sweepDelay  = 0.8;   // seconds before first sweep
     var sweepElapsed = 0;
     var sweepStarted = false;
@@ -362,10 +362,10 @@
         if (sweepElapsed > sweepDelay) {
           if (!sweepStarted) { sweepStarted = true; mouseActive = true; }
           sweepX += sweepDir * 0.22 * dt;
-          if (sweepX >= 0.95 || sweepX <= 0.05) {
+          if (sweepX >= 0.99 || sweepX <= 0.01) {
             sweepDir *= -1;
             sweepY = sweepY - sweepRowH;
-            if (sweepY < 0.08) sweepY = 0.88;
+            if (sweepY < 0.02) sweepY = 0.90;
           }
           targetMouse.set(sweepX, sweepY);
           mouseActive = true;

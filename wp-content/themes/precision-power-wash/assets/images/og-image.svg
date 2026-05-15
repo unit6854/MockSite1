@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0d1f35"/>
+      <stop offset="100%" stop-color="#050d1a"/>
+    </linearGradient>
+    <radialGradient id="iconGlow" cx="600" cy="200" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#iconGlow)"/>
+
+  <!-- Decorative large spray fan — top-right corner, very faint -->
+  <g opacity="0.045" stroke="#00b4d8" stroke-linecap="round">
+    <line x1="1200" y1="0"  x2="700" y2="315" stroke-width="22"/>
+    <line x1="1200" y1="80" x2="680" y2="315" stroke-width="22"/>
+    <line x1="1200" y1="160" x2="660" y2="315" stroke-width="22"/>
+    <line x1="1200" y1="240" x2="650" y2="315" stroke-width="22"/>
+    <line x1="1200" y1="320" x2="660" y2="315" stroke-width="22"/>
+  </g>
+
+  <!-- Decorative large spray fan — bottom-left corner, very faint -->
+  <g opacity="0.03" stroke="#00b4d8" stroke-linecap="round">
+    <line x1="0" y1="630"  x2="420" y2="340" stroke-width="18"/>
+    <line x1="0" y1="540"  x2="430" y2="340" stroke-width="18"/>
+    <line x1="0" y1="460"  x2="440" y2="340" stroke-width="18"/>
+  </g>
+
+  <!-- Top cyan accent bar -->
+  <rect width="1200" height="5" fill="#00b4d8"/>
+  <!-- Bottom cyan accent bar -->
+  <rect y="625" width="1200" height="5" fill="#00b4d8" opacity="0.35"/>
+
+  <!-- ─── Logo Icon — centered at (600, 198) ─────────────────── -->
+  <!-- transform: translate(473, 78) scale(6.5) centers icon at ~600, 198 -->
+  <g transform="translate(473, 78) scale(6.5)">
+    <!-- Nozzle body -->
+    <path d="M3 7 L3 29 L14 23 L14 13 Z" fill="#00b4d8"/>
+    <!-- Nozzle cap -->
+    <rect x="14" y="14" width="4" height="8" rx="1.5" fill="#48cae4"/>
+    <!-- Spray streams -->
+    <line x1="19" y1="15"  x2="32" y2="6"  stroke="#00b4d8" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="19" y1="18"  x2="34" y2="18" stroke="#00b4d8" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="19" y1="21"  x2="32" y2="30" stroke="#00b4d8" stroke-width="2.2" stroke-linecap="round"/>
+    <!-- Water droplets -->
+    <circle cx="33.5" cy="5.5"  r="1.8" fill="#00b4d8" opacity="0.9"/>
+    <circle cx="36"   cy="18"   r="1.8" fill="#00b4d8" opacity="0.9"/>
+    <circle cx="33.5" cy="30.5" r="1.8" fill="#00b4d8" opacity="0.9"/>
+  </g>
+
+  <!-- ─── Brand Name ─────────────────────────────────────────── -->
+  <text x="600" y="362"
+        text-anchor="middle"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif"
+        font-size="82" font-weight="800" letter-spacing="0.07em"
+        fill="#ffffff">PRECISION</text>
+
+  <text x="606" y="420"
+        text-anchor="middle"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif"
+        font-size="40" font-weight="600" letter-spacing="0.3em"
+        fill="#00b4d8">POWER WASH</text>
+
+  <!-- ─── Tagline ────────────────────────────────────────────── -->
+  <text x="600" y="486"
+        text-anchor="middle"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif"
+        font-size="25" font-weight="400" letter-spacing="0.04em"
+        fill="#8ecae6" opacity="0.8">
+    Residential &amp; Commercial Pressure Washing
+  </text>
+
+  <!-- Subtle separator -->
+  <line x1="460" y1="516" x2="740" y2="516" stroke="#00b4d8" stroke-width="1" opacity="0.28"/>
+
+  <!-- ─── Domain ──────────────────────────────────────────────── -->
+  <text x="600" y="554"
+        text-anchor="middle"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif"
+        font-size="18" font-weight="600" letter-spacing="0.14em"
+        fill="#00b4d8" opacity="0.65">PRECISIONPOWERWASH.COM</text>
+</svg>
